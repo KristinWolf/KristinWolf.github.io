@@ -2,7 +2,7 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-color:#F8DF96;   /* background color */
+	background-color:#ECE4B7;   /* background color */
 	color: #D2;          /* text color for the entire page */
 	font-size: 12px;
 	font-family: Verdana, Geneva, sans-serif;
@@ -36,7 +36,7 @@ h1, h2 {
 .stepContent{ 
 	background-color: white;
 	padding:7px;
-	display: flex;
+	display: flex";
 	justify-content: center;
 }
 
