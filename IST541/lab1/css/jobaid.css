@@ -11,14 +11,11 @@ body {
 h1, h2 { 
 	
 	text-align:center;     /* centers h1 and h2 content */
-	
-	
-	
-	
+		
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
-#wrapper {
+.wrapper {
 	width:900px;
 	margin:0 auto;    /* centers wrapper */
 }
@@ -36,7 +33,7 @@ h1, h2 {
 .stepContent{ 
 	background-color: white;
 	padding:7px;
-	display: flex";
+	display: flex;
 	justify-content: center;
 }
 
