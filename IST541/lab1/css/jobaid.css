@@ -14,6 +14,7 @@ h1, h2 {
 		
 }
 
+	
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 .wrapper {
 	width:900px;
@@ -22,7 +23,7 @@ h1, h2 {
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
-	padding:4px;
+	padding:5px;
 	text-align:left;
 	font-size:16px;
 	background-color:#446C04;
@@ -46,6 +47,7 @@ h1, h2 {
 	width:40%;	
 	padding:5px;
 	text-align: center;
+	
 }
 
 
