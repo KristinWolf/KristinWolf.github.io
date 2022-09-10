@@ -50,5 +50,14 @@ h1, h2 {
 	
 }
 
+.warning {
+	background-color: #FBB8C4;
+	padding: 6px;
+	border-radius:12px;	
+}
 
+.material-icons {
+	color:brown;
+	font-size:1.5em;
+}
 
