@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>example2.html</title>
+	<link href="css/chickensEggs.css" rel="stylesheet" type="text/css">
+	 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	
+	<a href="example1.html">Page 1</a> <a href="example2.html"> Page 2</a>
+  <div id="wrapper">
+	  
+<h1>Which Chicken Breed Lays Blue Eggs?</h1>
+	  
+<h3>Click on one of the following choices</h3>
+
+<h2 onclick="wrongAnswer1()" class="choices"> Rhode Island Red </h2>
+<h2 onclick="wrongAnswer2()" class="choices"> White Leghorn </h2>
+<h2 onclick="rightAnswer()" class="choices"> Araucana </h2>
+<h2 onclick="wrongAnswer3()" class="choices"> Golden Comet </h2>
+
+<div id="feedback"></div>
+<img id="eggs_carton" 
+	 src="img/eggs_carton.jpg" />
+	  
+<img  src="img/araucana.jpg" width="401" height="273" id="araucana" />
+	  
+<img  src="img/goldencomet.png" width="401" height="273" id="goldencomet" />
+
+<img  src="img/rhodeisland.png" width="401" height="273" id="rhodeisland" />
+	  
+<img  src="img/whiteleghorn.png" width="401" height="273" id="whiteleghorn" />
+	  
+</div>						  						   							   
+<script>
+      function rightAnswer(){
+         $("#feedback").html("<h2 style='color:green'> Correct! These exotic birds lay blue eggs.</h2>");
+         $("#araucana").show();
+		 $("#eggs_carton").hide();
+		   $("#goldencomet").hide();
+		  $("#rhodeisland").hide();
+		  $("#whiteleghorn").hide();
+      }
+	
+	
+	function wrongAnswer1(){
+      $("#feedback").html("<h2 style='color:red'>  These hens are reliable brown egg layers. </h2>");
+	  $("#rhodeisland").show();
+      $("#eggs_carton").hide();
+		   $("#goldencomet").hide();
+		  $("#whiteleghorn").hide();
+		  $("#araucana").hide();
+	}
+	
+   function wrongAnswer2(){
+      $("#feedback").html("<h2 style='color:red'> Most white eggs come from this breed. </h2>");
+	  $("#whiteleghorn").show();
+      $("#eggs_carton").hide();
+	      $("#goldencomet").hide();
+		  $("#rhodeisland").hide();
+		  $("#araucana").hide();
+   }
+	
+	 function wrongAnswer3(){
+      $("#feedback").html("<h2 style='color:red'> These hens lay brown eggs. </h2>");
+	  $("#goldencomet").show();
+      $("#eggs_carton").hide();
+		 $("#rhodeisland").hide();
+		  $("#araucana").hide();
+		  $("#whiteleghorn").hide();
+   }
+	
+
+	
+   </script> <!--  You don’t need to copy this line, it just shows where to copy the above lines -->
+  
+	
+</body>
+</html>
