@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+#title_nav 
+
+a { 
+	padding: 15px;
+	margin: 3px;
+	font-size: 135%;
+	background-color:  #5DAA6B; 
+	color:  #FAF1CF; 
+}
+a:hover {
+	font-size:200%;
+	background-color: #446C04; 
+	color: #FAF1CF; 
+}
+
+#title_nav {
+	text-align: center;
+	background-color: white;
+}
+
+
+ #overheadeggs {
+border: black 5px solid;
+}
+ 
+ #cropsuper {
+display: none; /* hides content */
+border: black 5px solid;
+}
+.choices {
+cursor: pointer;
+}
+
+.answer {color: #52A260;	
+}
+
+p {
+	font-size: 15px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center
+	
+}

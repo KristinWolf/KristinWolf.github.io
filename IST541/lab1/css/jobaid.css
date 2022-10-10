@@ -2,8 +2,8 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-color:#ECE4B7;   /* background color */
-	color: #D2;          /* text color for the entire page */
+	background-color:#FAF1CF;   /* background color */
+	color: #00000;          /* text color for the entire page */
 	font-size: 12px;
 	font-family: Verdana, Geneva, sans-serif;
 }
@@ -16,8 +16,8 @@ h1, h2 {
 
 	
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
-.wrapper {
-	width:500px;
+#wrapper {
+	width:600px;
 
 	margin: auto;    /* centers wrapper */
 }

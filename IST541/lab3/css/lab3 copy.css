@@ -1,0 +1,25 @@
+
+/* CSS Document */
+
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:lightgreen; 
+	color:  black; 
+}
+
+a:hover {
+	font-size:200%;
+	background-color: green; 
+	color: black; 
+}
+
+body {
+	text-align: center;
+	background-color: beige;
+}
+
+
+
+

@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Eggs Are a Superfood!</title>
+	
+	<link href="css/homepage.css" rel="stylesheet" type="text/css">
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+	<br>
+	<div id="title_nav">
+			<a href="homepage.html">  Home </a>
+	<a href="nutrition_pg2.html"> Nutrition </a>
+	<a href="carton_labelspg3.html"> Carton Labels </a>
+	<a href="shell_page4.html"> Shell Color </a>
+		<a href="hotspot_page5.html"> Egg Dishes </a>
+		<a href="recipe_pg6.html"> Recipe </a>
+		<a href="resources.html"> Resources</a>
+		<br>
+		<br>
+		<br>
+
+	</div>
+	<div id="wrapper">	
+
+ 
+<h1>What's Special About Eggs?</h1>
+ 
+		<h3 id="hint">Hint: Hover over the image below to find out!</h3> 
+	
+<img onmouseenter="showAnswer()" id="overheadeggs" 				src="img/overheadeggs.jpg" width"=400/>
+ 
+<img onmouseleave="hideAnswer()" id="cropsuper"
+	 src="img/cropsuper.jpg" width="400"/>
+ 
+ <div id="answer"></div>  
+           <!-- This is a placeholder to display here the answer-->
+ 
+</div> <!-- closing  “wrapper” -->
+
+	
+<script>
+ function showAnswer() {
+	   $("#overheadeggs").hide();
+	   $("#cropsuper").show();
+	   $("#answer").html("<h1 class='answer'>Eggs belong to the Superfood family!</h1>");
+	}
+
+function hideAnswer() {
+	   $("#overheadeggs").show();
+	   $("#cropsuper").hide();
+	   $("#answer").html("");  
+	}
+</script>
+<br>	
+<p>
+Eggs contain nutrients required for healthy cell growth and function.<br> They can be prepared as a main dish, and appear in many recipes.<br>
+</p>
+	
+	
+</body>
+</html>
