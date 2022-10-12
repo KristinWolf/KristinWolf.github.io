@@ -7,7 +7,7 @@ margin: 0 auto;
 text-align: center;
 }
 
-#title_nav 
+
 
 a { 
 	padding: 15px;
@@ -18,7 +18,7 @@ a {
 }
 a:hover {
 	font-size:200%;
-	background-color: #446C04; 
+	background-color: #0B6623; 
 	color: #FAF1CF; 
 }
 
